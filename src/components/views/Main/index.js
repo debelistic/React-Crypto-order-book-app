@@ -1,6 +1,8 @@
 import React from 'react';
 import { Grid, Typography } from '@material-ui/core';
+// import { log } from 'debug';
 import mainStyles from './mainStyles';
+import Orders from './apiResponse';
 
 
 const Main = () => {
@@ -9,7 +11,7 @@ const Main = () => {
   return (
     <Grid className={classes.root}>
       <Typography variant="h3">
-        Hello
+        <Orders />
       </Typography>
     </Grid>
   );

@@ -6,7 +6,6 @@ const mainStyles = makeStyles({
     padding: '15px',
     minHeight: '80vh',
     display: 'flex',
-    alignItems: 'center',
     justifyContent: 'center',
   },
 });
